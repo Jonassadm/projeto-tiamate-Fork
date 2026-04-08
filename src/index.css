@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme{
+  --color-marron-white: #F5E7DA;
+  --color-marron-black: #292625;
+}
