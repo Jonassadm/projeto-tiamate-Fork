@@ -1,6 +1,6 @@
 import { BiLogoFacebook, BiLogoInstagram, BiLogoLinkedin, BiLogoYoutube } from "react-icons/bi";
 
-const Banner = ({ texto, imagem, posicao = "esquerda" }) => {
+const Banner = ({ texto, imagem, aDireita }) => {
     return (
         <div className="h-125 relative overflow-hidden">
             <img
@@ -8,7 +8,7 @@ const Banner = ({ texto, imagem, posicao = "esquerda" }) => {
                 src={imagem}
                 alt=""
             />
-            <div className="absolute left-33.75 top-1/2 -translate-y-1/2">
+            <div className={`absolute top-1/2 -translate-y-1/2 ${aDireita ? 'right-33.75' : 'left-33.75'}`}>
                 <h1 className="font-bold text-[55px] text-marron-white w-137">{texto}</h1>
                 <div className="flex gap-4 *:w-10 *:h-10 *:rounded-full *:bg-marron-white-2 *:flex *:justify-center *:items-center *:text-2xl *:text-marron-black *:hover:bg-gold *:duration-200">
                     <a href=""><BiLogoFacebook /></a>
