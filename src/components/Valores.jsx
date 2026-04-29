@@ -3,6 +3,7 @@ import img1 from "../assets/valores-img1.png"
 import img2 from "../assets/valores-img2.png"
 import img3 from "../assets/valores-img3.png"
 import img4 from "../assets/valores-img4.png"
+import { BiX } from "react-icons/bi"
 
 const Valores = () => {
     const [mostrarVideo, setMostrarVideo] = useState(false);
@@ -46,15 +47,22 @@ const Valores = () => {
                 <img onClick={() => setMostrarVideo(true)} src={img4} alt="" className="w-full mt-20 rounded-2xl cursor-pointer" />
             </div>
             <div className={`w-full h-screen bg-black/85 fixed top-0 left-0  justify-center items-center duration-200 flex ${mostrarVideo ? "opacity-100 visible" : "opacity-0 invisible"}`}>
-                <iframe
-                    width="1100"
-                    height="600"
-                    src="https://www.youtube.com/embed/RWCP7z8ufiA?si=HHlWuODVVW5404qI" title="YouTube video player"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    frameborder="0"
-                    allowfullscreen
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                ></iframe>
+                <div onClick={() => setMostrarVideo(false)} className="fixed top-10 right-10 text-white text-4xl cursor-pointer">
+                    <BiX />
+                </div>
+                {
+                    mostrarVideo && (
+                        <iframe
+                            width="1100"
+                            height="600"
+                            src="https://www.youtube.com/embed/RWCP7z8ufiA?si=HHlWuODVVW5404qI" title="YouTube video player"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            frameborder="0"
+                            allowfullscreen
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        ></iframe>
+                    )
+                }
             </div>
         </div>
     );
