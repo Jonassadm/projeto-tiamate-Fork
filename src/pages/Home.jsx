@@ -5,6 +5,7 @@ import Introducao from "../components/Introducao";
 import Valores from "../components/valores";
 import Galeria from "../components/Galeria";
 import Cardapio from "../components/Cardapio";
+import FormLead from "../components/FormLead";
 
 const Home = () => {
     return (
@@ -25,6 +26,7 @@ const Home = () => {
             />
             <Galeria />
             <Cardapio />
+            <FormLead />
         </>
     );
 }
