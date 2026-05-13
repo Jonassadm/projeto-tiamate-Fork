@@ -1,0 +1,46 @@
+{
+    "depoimentos": [
+        {
+            "id": 1,
+            "nome": "Isac Moura",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2yEEfLE8MSBjkO6iVXmE0DEFtWgga6VqqXQ&s",
+            "estrelas": 5,
+            "texto": "O café é realmente bom, e os salgados também (pedi um croissant de 4 queijos). Já havia pedido antes via iFood mas resolvi fazer uma visita enquanto andava pelo Centro, o café fica mesmo ao lado da Praça do Ferreira. Vale a pena dar uma visitada quando quiser se refrescar com um café gelado deles ou tomar um café da manhã por lá."
+        },
+        {
+            "id": 2,
+            "nome": "Eleonora Pereira",
+            "imagem": "https://cdn.dicionariopopular.com/imagens/menina-raivosa.jpg",
+            "estrelas": 4,
+            "texto": "Excelente café no Centro da cidade. Vale a pena uma passará para quem estiver passando pela região."
+        },
+        {
+            "id": 3,
+            "nome": "Alkaline Fernandes",
+            "imagem": "https://wallpapers.com/images/hd/meme-faces-funny-pictures-x7rujysb8bcbb7yg.jpg",
+            "estrelas": 5,
+            "texto": "Ótimo lugar para descansar tomando aquele café, cappuccino, matte, tiamatte...😍 meu refúgio de descanso em meio ao turbulento centro de Fortal City! rs"
+        },
+        {
+            "id": 4,
+            "nome": "Alkaline Fernandes",
+            "imagem": "https://wallpapers.com/images/hd/meme-faces-funny-pictures-x7rujysb8bcbb7yg.jpg",
+            "estrelas": 5,
+            "texto": "Ótimo lugar para descansar tomando aquele café, cappuccino, matte, tiamatte...😍 meu refúgio de descanso em meio ao turbulento centro de Fortal City! rs"
+        },
+        {
+            "id": 5,
+            "nome": "Alkaline Fernandes",
+            "imagem": "https://wallpapers.com/images/hd/meme-faces-funny-pictures-x7rujysb8bcbb7yg.jpg",
+            "estrelas": 5,
+            "texto": "Ótimo lugar para descansar tomando aquele café, cappuccino, matte, tiamatte...😍 meu refúgio de descanso em meio ao turbulento centro de Fortal City! rs"
+        },
+        {
+            "id": 6,
+            "nome": "Alkaline Fernandes",
+            "imagem": "https://wallpapers.com/images/hd/meme-faces-funny-pictures-x7rujysb8bcbb7yg.jpg",
+            "estrelas": 5,
+            "texto": "Ótimo lugar para descansar tomando aquele café, cappuccino, matte, tiamatte...😍 meu refúgio de descanso em meio ao turbulento centro de Fortal City! rs"
+        }
+    ]
+}
